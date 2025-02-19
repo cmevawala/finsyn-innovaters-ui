@@ -36,12 +36,10 @@ function a11yProps(index) {
 const getTabs = (columns = {}, currentValue) => {
   const tabHeaders = [];
   const tabPanels = [];
-  var i=0;
-  for(const [key, value] of Object.entries(columns)){
-    console.log(key)
-    console.log(value);
-    tabHeaders.push(<Tab label={key} {...a11yProps(i)} />)
-    tabPanels.push(<CustomTabPanel value={currentValue} index={i}>
+  var i = 0;
+  for (const [key, value] of Object.entries(columns)) {
+    tabHeaders.push(<Tab key={key} label={key} {...a11yProps(i)} />)
+    tabPanels.push(<CustomTabPanel key={key} value={currentValue} index={i}>
       {value.insight}
     </CustomTabPanel>);
     i++;
@@ -63,14 +61,13 @@ const ColumnData = (props) => {
   } = getTabs(columns, value);
 
   const handleChange = (event, newValue) => {
-    console.log(newValue)
     setValue(newValue);
   };
 
   return (
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+        <Tabs variant='scrollable' value={value} onChange={handleChange} aria-label="data insights">
           {tabHeaders}
         </Tabs>
       </Box>

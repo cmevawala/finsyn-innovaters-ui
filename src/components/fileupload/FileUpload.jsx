@@ -47,7 +47,7 @@ const FileUpload = ({
   imageButton = false,
   hoverLabel = 'Click or drag to upload file',
   dropLabel = 'Drop file here',
-  width = '600px',
+  width = '74%',
   height = '100px',
   backgroundColor = '#fff',
   image: {
