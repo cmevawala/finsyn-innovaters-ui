@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Container, TextField, Button, Box, Typography } from "@mui/material";
 import Loader from "../Loader";
 import { useStateContext } from "../PromptSyntheticDataGenerator/StateContext";
+import { RESPONSE_GET_SCHEMA_FROM_USERS_PROMPT, SYNTHETIC_DATA_FROM_METADATA } from "../../constants/urls";
 
 function PromptInputElement() {
     const { state, dispatch } = useStateContext();
@@ -13,7 +14,7 @@ function PromptInputElement() {
 
     const fetchSytheticDataFromMetadata = async () => {
         try {
-            const res = await fetch("http://localhost:5000/synthetic_data_from_metadata", {
+            const res = await fetch(SYNTHETIC_DATA_FROM_METADATA, {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json",
@@ -41,7 +42,7 @@ function PromptInputElement() {
 
     const fetchSchema = async () => {
         try {
-            const res = await fetch("http://localhost:5000/response_get_schema_from_users_prompt", {
+            const res = await fetch(RESPONSE_GET_SCHEMA_FROM_USERS_PROMPT, {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json",
