@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
   return (
-    <Container maxWidth="lg">
+    <Container maxWidth={'lg'} sx={{ minHeight: "100vh" }}>
       <VerticalTabs />
     </Container>
   )

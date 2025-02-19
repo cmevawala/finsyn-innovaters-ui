@@ -204,5 +204,106 @@
         }
       }
     }
-  }
+  },
+  "synthetic_data_from_metadata": [
+    {
+      "employee_id": "EMP001",
+      "name": "Alice Johnson",
+      "role": "Manager",
+      "designation": "Senior Manager",
+      "salary": 75000,
+      "date_of_joining": "2018-06-12",
+      "department": "Marketing"
+    },
+    {
+      "employee_id": "EMP002",
+      "name": "John Smith",
+      "role": "Developer",
+      "designation": "Software Engineer",
+      "salary": 60000,
+      "date_of_joining": "2019-02-28",
+      "department": "Engineering"
+    },
+    {
+      "employee_id": "EMP002",
+      "name": "John Smith",
+      "role": "Developer",
+      "designation": "Software Engineer",
+      "salary": 60000,
+      "date_of_joining": "2019-02-28",
+      "department": "Engineering"
+    },
+    {
+      "employee_id": "EMP002",
+      "name": "John Smith",
+      "role": "Developer",
+      "designation": "Software Engineer",
+      "salary": 60000,
+      "date_of_joining": "2019-02-28",
+      "department": "Engineering"
+    },
+    {
+      "employee_id": "EMP002",
+      "name": "John Smith",
+      "role": "Developer",
+      "designation": "Software Engineer",
+      "salary": 60000,
+      "date_of_joining": "2019-02-28",
+      "department": "Engineering"
+    },
+    {
+      "employee_id": "EMP002",
+      "name": "John Smith",
+      "role": "Developer",
+      "designation": "Software Engineer",
+      "salary": 60000,
+      "date_of_joining": "2019-02-28",
+      "department": "Engineering"
+    },
+    {
+      "employee_id": "EMP002",
+      "name": "John Smith",
+      "role": "Developer",
+      "designation": "Software Engineer",
+      "salary": 60000,
+      "date_of_joining": "2019-02-28",
+      "department": "Engineering"
+    },
+    {
+      "employee_id": "EMP002",
+      "name": "John Smith",
+      "role": "Developer",
+      "designation": "Software Engineer",
+      "salary": 60000,
+      "date_of_joining": "2019-02-28",
+      "department": "Engineering"
+    },
+    {
+      "employee_id": "EMP002",
+      "name": "John Smith",
+      "role": "Developer",
+      "designation": "Software Engineer",
+      "salary": 60000,
+      "date_of_joining": "2019-02-28",
+      "department": "Engineering"
+    },
+    {
+      "employee_id": "EMP002",
+      "name": "John Smith",
+      "role": "Developer",
+      "designation": "Software Engineer",
+      "salary": 60000,
+      "date_of_joining": "2019-02-28",
+      "department": "Engineering"
+    },
+    {
+      "employee_id": "EMP002",
+      "name": "John Smith",
+      "role": "Developer",
+      "designation": "Software Engineer",
+      "salary": 60000,
+      "date_of_joining": "2019-02-28",
+      "department": "Engineering"
+    }
+  ]
 }

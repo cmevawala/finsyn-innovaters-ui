@@ -81,7 +81,7 @@ function PromptInputElement() {
             {/* <h2>Generate Metadata</h2> */}
 
             <Typography variant="h5" gutterBottom sx={{ mb: 2 }}>
-                Synthetic Data Report
+               Generate From Metadata
             </Typography>
 
             {/* Text Area */}
