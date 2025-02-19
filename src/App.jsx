@@ -1,12 +1,18 @@
-import { useState, useEffect } from 'react'
+import VerticalTabs from './components/verticaltabs/VerticalTabs'
+import { Container } from '@mui/material'
 import './App.css'
-import Layout from './Layout';
 
 function App() {
+  // useEffect(() => {
+  //   fetch("http://localhost:5000/users")
+  //     .then(response => response.json())
+  //     .then(data => console.log(data));
+  // }, []);
+
   return (
-    <>
-      <Layout />
-    </>
+    <Container maxWidth="lg">
+      <VerticalTabs />
+    </Container>
   )
 }
 
