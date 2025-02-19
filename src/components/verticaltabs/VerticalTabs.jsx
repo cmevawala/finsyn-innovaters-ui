@@ -1,7 +1,6 @@
 import * as React from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import StructuredSyntheticDataGenerator from "../structureddata/StructuredSyntheticDataGenerator";
 import PromptSyntheticDataGenerator from "../PromptSyntheticDataGenerator/PromptSyntheticDataGenerator";
@@ -15,11 +14,12 @@ function TabPanel(props) {
       hidden={value !== index}
       id={`vertical-tabpanel-${index}`}
       aria-labelledby={`vertical-tab-${index}`}
+      style={{ "width": "100%", "height": "100%" }}
       {...other}
     >
       {value === index && (
-        <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
+        <Box sx={{ display: "flex", flexDirection: "column", width: "100%" }}>
+          {children}
         </Box>
       )}
     </div>
@@ -46,7 +46,8 @@ export default function VerticalTabs() {
         flexGrow: 1,
         bgcolor: "background.paper",
         display: "flex",
-        height: "100vh"
+        width: "100%",
+        height: "100%",
       }}
     >
       <Tabs
