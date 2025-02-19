@@ -41,29 +41,29 @@
     "structured_data_insights": {
       "summary_statistics": {
         "count": {
-          "ID": 2,
-          "Name": 2,
-          "Age": 2,
-          "Department": 2,
-          "Salary": 2,
-          "Date_of_Joining": 2,
-          "Band Level": 2,
-          "Years of Experience": 2,
-          "Last Performance Rating": 2,
-          "Laptop Assigned": 2,
-          "Number of tickets raised in a month": 2
+          "ID": 10,
+          "Name": 10,
+          "Age": 10,
+          "Department": 10,
+          "Salary": 10,
+          "Date_of_Joining": 10,
+          "Band Level": 10,
+          "Years of Experience": 10,
+          "Last Performance Rating": 10,
+          "Laptop Assigned": 10,
+          "Number of tickets raised in a month": 10
         },
         "unique": {
-          "ID": 2,
-          "Name": 2,
+          "ID": 10,
+          "Name": 10,
           "Age": null,
-          "Department": 2,
+          "Department": 4,
           "Salary": null,
-          "Date_of_Joining": 2,
+          "Date_of_Joining": 10,
           "Band Level": null,
           "Years of Experience": null,
           "Last Performance Rating": null,
-          "Laptop Assigned": 1,
+          "Laptop Assigned": 5,
           "Number of tickets raised in a month": null
         },
         "top": {
@@ -83,137 +83,126 @@
           "ID": 1,
           "Name": 1,
           "Age": null,
-          "Department": 1,
+          "Department": 5,
           "Salary": null,
           "Date_of_Joining": 1,
           "Band Level": null,
           "Years of Experience": null,
           "Last Performance Rating": null,
-          "Laptop Assigned": 2,
+          "Laptop Assigned": 4,
           "Number of tickets raised in a month": null
         },
         "mean": {
           "ID": null,
           "Name": null,
-          "Age": 31,
+          "Age": 31.5,
           "Department": null,
-          "Salary": 67500,
+          "Salary": 67000,
           "Date_of_Joining": null,
-          "Band Level": 44,
-          "Years of Experience": 4.5,
-          "Last Performance Rating": 2,
+          "Band Level": 64.6,
+          "Years of Experience": 5.6,
+          "Last Performance Rating": 2.2,
           "Laptop Assigned": null,
-          "Number of tickets raised in a month": 3
+          "Number of tickets raised in a month": 2.9
         },
         "std": {
           "ID": null,
           "Name": null,
-          "Age": 4.242640687119285,
+          "Age": 4.696334267868457,
           "Department": null,
-          "Salary": 3535.5339059327375,
+          "Salary": 8205.689083394114,
           "Date_of_Joining": null,
-          "Band Level": 22.627416997969522,
-          "Years of Experience": 0.7071067811865476,
-          "Last Performance Rating": 0,
+          "Band Level": 53.21486843187928,
+          "Years of Experience": 4.5995168828427575,
+          "Last Performance Rating": 1.3984117975602022,
           "Laptop Assigned": null,
-          "Number of tickets raised in a month": 1.4142135623730951
+          "Number of tickets raised in a month": 1.1005049346146119
         },
         "min": {
           "ID": null,
           "Name": null,
-          "Age": 28,
+          "Age": 26,
           "Department": null,
-          "Salary": 65000,
+          "Salary": 55000,
           "Date_of_Joining": null,
           "Band Level": 28,
-          "Years of Experience": 4,
-          "Last Performance Rating": 2,
+          "Years of Experience": 2,
+          "Last Performance Rating": 1,
           "Laptop Assigned": null,
           "Number of tickets raised in a month": 2
         },
         "25%": {
           "ID": null,
           "Name": null,
-          "Age": 29.5,
+          "Age": 28.25,
           "Department": null,
-          "Salary": 66250,
+          "Salary": 60500,
           "Date_of_Joining": null,
-          "Band Level": 36,
-          "Years of Experience": 4.25,
-          "Last Performance Rating": 2,
+          "Band Level": 30,
+          "Years of Experience": 4,
+          "Last Performance Rating": 1,
           "Laptop Assigned": null,
-          "Number of tickets raised in a month": 2.5
+          "Number of tickets raised in a month": 2
         },
         "50%": {
           "ID": null,
           "Name": null,
-          "Age": 31,
+          "Age": 30,
           "Department": null,
           "Salary": 67500,
           "Date_of_Joining": null,
-          "Band Level": 44,
+          "Band Level": 45,
           "Years of Experience": 4.5,
           "Last Performance Rating": 2,
           "Laptop Assigned": null,
-          "Number of tickets raised in a month": 3
+          "Number of tickets raised in a month": 2.5
         },
         "75%": {
           "ID": null,
           "Name": null,
-          "Age": 32.5,
+          "Age": 33.75,
           "Department": null,
-          "Salary": 68750,
+          "Salary": 72750,
           "Date_of_Joining": null,
-          "Band Level": 52,
-          "Years of Experience": 4.75,
-          "Last Performance Rating": 2,
+          "Band Level": 82.5,
+          "Years of Experience": 5,
+          "Last Performance Rating": 2.75,
           "Laptop Assigned": null,
-          "Number of tickets raised in a month": 3.5
+          "Number of tickets raised in a month": 3.75
         },
         "max": {
           "ID": null,
           "Name": null,
-          "Age": 34,
+          "Age": 40,
           "Department": null,
-          "Salary": 70000,
+          "Salary": 80000,
           "Date_of_Joining": null,
-          "Band Level": 60,
-          "Years of Experience": 5,
-          "Last Performance Rating": 2,
+          "Band Level": 200,
+          "Years of Experience": 18,
+          "Last Performance Rating": 5,
           "Laptop Assigned": null,
-          "Number of tickets raised in a month": 4
+          "Number of tickets raised in a month": 5
         }
       },
       "columns": {
         "ID": {
           "plots": "No plots available (non-numeric data).",
-          "insight": "The provided statistical metrics is pertaining to the 'ID' column:\n\n1. 'Count' is 2, which means there are only two observations or entries in this column.\n\n2. 'Unique' is also 2, suggesting that both the entries in the 'ID' column are distinct without any repetition.\n\n3. 'Top' refers to the most common value in the column, which is 'EMP01'. However, as 'Freq' is 1, it indicates that 'EMP01' appears only once and there's another unique entry.\n\n4. The 'NaN' values for mean, std, min, 25%, 50%, 75%, and max indicate that these statistical measures were not calculated. This is probably because the 'ID' column contains categorical data (likely strings), for which these statistical operations don't make sense or are not applicable.\n\nIn brief, this summary is about a column of unique identifiers ('ID') with only two different records present - each one appearing only once. Therefore, no meaningful statistical analysis on central tendency or dispersion can be conducted on this column."
+          "insight": "The statistical summary presented is related to a column named 'ID' with 10 records. It seems that this 'ID' column is most probably a categorical variable, possibly an identifier due to some key insights observed from the statistics:\n\n1. Count: The column contains 10 entries, which means there are no missing values.\n\n2. Unique: There are 10 unique entries implying each entry/ID in the column is different from the others. That's possibly why the term 'EMP01' has been considered the top entry.\n\n3. Top: The top or the most frequently occurring value in the column is 'EMP01'.\n\n4. Frequency: The frequency of the top value is 1, suggesting that 'EMP01' has occurred only once as all the IDs are unique.\n\nAs for the 'mean', 'std', 'min', '25%', '50%', '75%', and 'max', they are all indicated as 'NaN', i.e., Not a Number. This typically happens when these descriptive statistics are attempted on non-numeric data, confirming the fact that 'ID' is a categorical column."
         },
         "Name": {
           "plots": "No plots available (non-numeric data).",
-          "insight": "From the provided statistical summary for the column 'Name', we can deduce the following:\n\n1. There are two entries in the column.\n2. Both entries are unique as indicated by 'unique = 2'.\n3. The most frequent name is 'John Doe', but since 'freq =1', it essentially means each name appears once.\n4. Since 'Name' is a qualitative variable (normally column meant to store numerical records) all the following statistical metrics (`mean`, `std`, `min`, `25%`, `50%`, `75%`, `max`) do not apply, hence showing `NaN`, not a number.\n \nKey Insights:\n- The 'name' column only consists of two different names.\n- Each name only appears once.\n- Receiving numerical metrics for this type of column might indicate a possible data import or structuring error since ordinarily such measures are applicable to quantitative data."
+          "insight": "The column 'Name' contains ten unique entries, which means there are no repeated names in this dataset. 'John Doe' is mentioned as the top entry but since each name appears only once ('freq' is 1), this may be arbitrary. All the numerical statistical metrics such as mean, standard deviation (std), minimum (min), 25th percentile (25%), median (50%), 75th percentile (75%), and maximum (max) are not applicable here (represented by NaN) as they do not apply to non-numerical data like names. Therefore, these metrics do not provide any relevant information for this dataset."
+        },
+        "Age": {
+          "plots": {
+            "gaussian_distribution_plot": "{\"data\":[{\"histnorm\":\"probability density\",\"name\":\"Data Distribution\",\"opacity\":0.7,\"x\":[28,34,26,29,40,31,38,27,33,29],\"type\":\"histogram\"},{\"line\":{\"color\":\"red\"},\"mode\":\"lines\",\"name\":\"Gaussian Fit\",\"x\":[26.0,26.141414141414142,26.282828282828284,26.424242424242426,26.565656565656564,26.707070707070706,26.848484848484848,26.98989898989899,27.13131313131313,27.272727272727273,27.414141414141415,27.555555555555557,27.696969696969695,27.838383838383837,27.97979797979798,28.12121212121212,28.262626262626263,28.404040404040405,28.545454545454547,28.686868686868685,28.828282828282827,28.96969696969697,29.11111111111111,29.252525252525253,29.393939393939394,29.535353535353536,29.676767676767675,29.818181818181817,29.95959595959596,30.1010101010101,30.242424242424242,30.383838383838384,30.525252525252526,30.666666666666664,30.80808080808081,30.949494949494948,31.09090909090909,31.232323232323232,31.373737373737374,31.515151515151516,31.656565656565657,31.7979797979798,31.939393939393938,32.08080808080808,32.22222222222222,32.36363636363636,32.505050505050505,32.64646464646464,32.78787878787879,32.92929292929293,33.07070707070707,33.21212121212121,33.35353535353535,33.494949494949495,33.63636363636363,33.77777777777778,33.91919191919192,34.06060606060606,34.2020202020202,34.34343434343434,34.484848484848484,34.62626262626263,34.76767676767677,34.90909090909091,35.05050505050505,35.19191919191919,35.33333333333333,35.474747474747474,35.61616161616162,35.75757575757576,35.898989898989896,36.04040404040404,36.18181818181818,36.323232323232325,36.464646464646464,36.60606060606061,36.74747474747475,36.888888888888886,37.03030303030303,37.17171717171717,37.313131313131315,37.45454545454545,37.5959595959596,37.73737373737374,37.878787878787875,38.02020202020202,38.16161616161616,38.303030303030305,38.44444444444444,38.58585858585859,38.72727272727273,38.868686868686865,39.01010101010101,39.15151515151515,39.292929292929294,39.43434343434343,39.57575757575758,39.717171717171716,39.858585858585855,40.0],\"y\":[0.042788365110420654,0.04430410568167694,0.0458319649657018,0.04736954374264215,0.048914334326476384,0.0504637261676408,0.05201501211452874,0.05356539532075761,0.05511199678051751,0.05665186346972027,0.05818197706609513,0.059699263216865715,0.06120060131823209,0.06268283476660998,0.06414278163748624,0.06557724574387504,0.06698302802273731,0.06835693819439706,0.06969580663698342,0.0709964964152802,0.07225591540110522,0.07347102842049498,0.0746388693615625,0.07575655317594382,0.07682128770627113,0.07783038527211797,0.0787812739473624,0.07967150846291265,0.08049878067023214,0.08126092950308633,0.08195595037739696,0.08258200397201985,0.08313742433663994,0.08362072627677643,0.08403061197008944,0.08436597677274014,0.08462591417944959,0.08480971990608645,0.08491689506905029,0.08494714844136285,0.08490039777118763,0.08477677015442318,0.08457660145900765,0.08430043480458427,0.08394901810715993,0.08352330070429168,0.08302442908211446,0.08245374173112732,0.08181276316304122,0.08110319712611842,0.08032691906125689,0.07948596784556093,0.07858253687425266,0.0776189645354914,0.0765977241359515,0.07552141333783935,0.07439274317039522,0.07321452668080251,0.07198966729081763,0.07072114692632163,0.0694120139873929,0.06806537122640018,0.06668436360103554,0.06527216616815622,0.06383197208280014,0.06236698076480237,0.06088038629309468,0.05937536608504553,0.05785506991511944,0.05632260932373945,0.054781047463559135,0.053233389426425005,0.051682573090175196,0.05013146052011529,0.04858282995557876,0.0470393684074474,0.0455036648879315,0.04397820428930913,0.04246536192375589,0.0409673987318798,0.03948645716315556,0.03802455772715918,0.0365835962103603,0.03516534154927727,0.03377143434704708,0.03240338601694893,0.031062578533150215,0.029750264765943026,0.02846756937602136,0.02721549023991598,0.02599490037657632,0.024806550343256576,0.02365107106734223,0.022528977079530537,0.02144067011285713,0.020386443031435508,0.019366484052429717,0.018380881224715536,0.01742962712787497,0.016512623755612032],\"type\":\"scatter\"}],\"layout\":{\"template\":{\"data\":{\"candlestick\":[{\"decreasing\":{\"line\":{\"color\":\"#000033\"}},\"increasing\":{\"line\":{\"color\":\"#000032\"}},\"type\":\"candlestick\"}],\"contourcarpet\":[{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"type\":\"contourcarpet\"}],\"contour\":[{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"type\":\"contour\"}],\"heatmap\":[{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"type\":\"heatmap\"}],\"histogram2d\":[{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"type\":\"histogram2d\"}],\"icicle\":[{\"textfont\":{\"color\":\"white\"},\"type\":\"icicle\"}],\"sankey\":[{\"textfont\":{\"color\":\"#000036\"},\"type\":\"sankey\"}],\"scatter\":[{\"marker\":{\"line\":{\"width\":0}},\"type\":\"scatter\"}],\"table\":[{\"cells\":{\"fill\":{\"color\":\"#000038\"},\"font\":{\"color\":\"#000037\"},\"line\":{\"color\":\"#000039\"}},\"header\":{\"fill\":{\"color\":\"#000040\"},\"font\":{\"color\":\"#000036\"},\"line\":{\"color\":\"#000039\"}},\"type\":\"table\"}],\"waterfall\":[{\"connector\":{\"line\":{\"color\":\"#000036\",\"width\":2}},\"decreasing\":{\"marker\":{\"color\":\"#000033\"}},\"increasing\":{\"marker\":{\"color\":\"#000032\"}},\"totals\":{\"marker\":{\"color\":\"#000034\"}},\"type\":\"waterfall\"}]},\"layout\":{\"coloraxis\":{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]]},\"colorscale\":{\"diverging\":[[0.0,\"#000021\"],[0.1,\"#000022\"],[0.2,\"#000023\"],[0.3,\"#000024\"],[0.4,\"#000025\"],[0.5,\"#000026\"],[0.6,\"#000027\"],[0.7,\"#000028\"],[0.8,\"#000029\"],[0.9,\"#000030\"],[1.0,\"#000031\"]],\"sequential\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"sequentialminus\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]]},\"colorway\":[\"#000001\",\"#000002\",\"#000003\",\"#000004\",\"#000005\",\"#000006\",\"#000007\",\"#000008\",\"#000009\",\"#000010\"]}},\"title\":{\"text\":\"Gaussian Distribution Plot for Age\"},\"xaxis\":{\"title\":{\"text\":\"Age\"}},\"yaxis\":{\"title\":{\"text\":\"Density\"}}}}",
+            "distribution_plot": "{\"data\":[{\"alignmentgroup\":\"True\",\"bingroup\":\"x\",\"hovertemplate\":\"Age=%{x}\\u003cbr\\u003ecount=%{y}\\u003cextra\\u003e\\u003c\\u002fextra\\u003e\",\"legendgroup\":\"\",\"marker\":{\"color\":\"#000001\",\"pattern\":{\"shape\":\"\"}},\"name\":\"\",\"nbinsx\":30,\"offsetgroup\":\"\",\"orientation\":\"v\",\"showlegend\":false,\"x\":[28,34,26,29,40,31,38,27,33,29],\"xaxis\":\"x\",\"yaxis\":\"y\",\"type\":\"histogram\"},{\"alignmentgroup\":\"True\",\"hovertemplate\":\"Age=%{x}\\u003cextra\\u003e\\u003c\\u002fextra\\u003e\",\"legendgroup\":\"\",\"marker\":{\"color\":\"#000001\"},\"name\":\"\",\"notched\":true,\"offsetgroup\":\"\",\"showlegend\":false,\"x\":[28,34,26,29,40,31,38,27,33,29],\"xaxis\":\"x2\",\"yaxis\":\"y2\",\"type\":\"box\"}],\"layout\":{\"template\":{\"data\":{\"candlestick\":[{\"decreasing\":{\"line\":{\"color\":\"#000033\"}},\"increasing\":{\"line\":{\"color\":\"#000032\"}},\"type\":\"candlestick\"}],\"contourcarpet\":[{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"type\":\"contourcarpet\"}],\"contour\":[{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"type\":\"contour\"}],\"heatmap\":[{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"type\":\"heatmap\"}],\"histogram2d\":[{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"type\":\"histogram2d\"}],\"icicle\":[{\"textfont\":{\"color\":\"white\"},\"type\":\"icicle\"}],\"sankey\":[{\"textfont\":{\"color\":\"#000036\"},\"type\":\"sankey\"}],\"scatter\":[{\"marker\":{\"line\":{\"width\":0}},\"type\":\"scatter\"}],\"table\":[{\"cells\":{\"fill\":{\"color\":\"#000038\"},\"font\":{\"color\":\"#000037\"},\"line\":{\"color\":\"#000039\"}},\"header\":{\"fill\":{\"color\":\"#000040\"},\"font\":{\"color\":\"#000036\"},\"line\":{\"color\":\"#000039\"}},\"type\":\"table\"}],\"waterfall\":[{\"connector\":{\"line\":{\"color\":\"#000036\",\"width\":2}},\"decreasing\":{\"marker\":{\"color\":\"#000033\"}},\"increasing\":{\"marker\":{\"color\":\"#000032\"}},\"totals\":{\"marker\":{\"color\":\"#000034\"}},\"type\":\"waterfall\"}]},\"layout\":{\"coloraxis\":{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]]},\"colorscale\":{\"diverging\":[[0.0,\"#000021\"],[0.1,\"#000022\"],[0.2,\"#000023\"],[0.3,\"#000024\"],[0.4,\"#000025\"],[0.5,\"#000026\"],[0.6,\"#000027\"],[0.7,\"#000028\"],[0.8,\"#000029\"],[0.9,\"#000030\"],[1.0,\"#000031\"]],\"sequential\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"sequentialminus\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]]},\"colorway\":[\"#000001\",\"#000002\",\"#000003\",\"#000004\",\"#000005\",\"#000006\",\"#000007\",\"#000008\",\"#000009\",\"#000010\"]}},\"xaxis\":{\"anchor\":\"y\",\"domain\":[0.0,1.0],\"title\":{\"text\":\"Age\"}},\"yaxis\":{\"anchor\":\"x\",\"domain\":[0.0,0.8316],\"title\":{\"text\":\"count\"}},\"xaxis2\":{\"anchor\":\"y2\",\"domain\":[0.0,1.0],\"matches\":\"x\",\"showticklabels\":false,\"showgrid\":true},\"yaxis2\":{\"anchor\":\"x2\",\"domain\":[0.8416,1.0],\"matches\":\"y2\",\"showticklabels\":false,\"showline\":false,\"ticks\":\"\",\"showgrid\":false},\"legend\":{\"tracegroupgap\":0},\"title\":{\"text\":\"Distribution Plot for Age\"},\"barmode\":\"relative\"}}",
+            "box_plot": "{\"data\":[{\"alignmentgroup\":\"True\",\"hovertemplate\":\"Age=%{y}\\u003cextra\\u003e\\u003c\\u002fextra\\u003e\",\"legendgroup\":\"\",\"marker\":{\"color\":\"#000001\"},\"name\":\"\",\"notched\":false,\"offsetgroup\":\"\",\"orientation\":\"v\",\"showlegend\":false,\"x0\":\" \",\"xaxis\":\"x\",\"y\":[28,34,26,29,40,31,38,27,33,29],\"y0\":\" \",\"yaxis\":\"y\",\"type\":\"box\"}],\"layout\":{\"template\":{\"data\":{\"candlestick\":[{\"decreasing\":{\"line\":{\"color\":\"#000033\"}},\"increasing\":{\"line\":{\"color\":\"#000032\"}},\"type\":\"candlestick\"}],\"contourcarpet\":[{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"type\":\"contourcarpet\"}],\"contour\":[{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"type\":\"contour\"}],\"heatmap\":[{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"type\":\"heatmap\"}],\"histogram2d\":[{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"type\":\"histogram2d\"}],\"icicle\":[{\"textfont\":{\"color\":\"white\"},\"type\":\"icicle\"}],\"sankey\":[{\"textfont\":{\"color\":\"#000036\"},\"type\":\"sankey\"}],\"scatter\":[{\"marker\":{\"line\":{\"width\":0}},\"type\":\"scatter\"}],\"table\":[{\"cells\":{\"fill\":{\"color\":\"#000038\"},\"font\":{\"color\":\"#000037\"},\"line\":{\"color\":\"#000039\"}},\"header\":{\"fill\":{\"color\":\"#000040\"},\"font\":{\"color\":\"#000036\"},\"line\":{\"color\":\"#000039\"}},\"type\":\"table\"}],\"waterfall\":[{\"connector\":{\"line\":{\"color\":\"#000036\",\"width\":2}},\"decreasing\":{\"marker\":{\"color\":\"#000033\"}},\"increasing\":{\"marker\":{\"color\":\"#000032\"}},\"totals\":{\"marker\":{\"color\":\"#000034\"}},\"type\":\"waterfall\"}]},\"layout\":{\"coloraxis\":{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]]},\"colorscale\":{\"diverging\":[[0.0,\"#000021\"],[0.1,\"#000022\"],[0.2,\"#000023\"],[0.3,\"#000024\"],[0.4,\"#000025\"],[0.5,\"#000026\"],[0.6,\"#000027\"],[0.7,\"#000028\"],[0.8,\"#000029\"],[0.9,\"#000030\"],[1.0,\"#000031\"]],\"sequential\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"sequentialminus\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]]},\"colorway\":[\"#000001\",\"#000002\",\"#000003\",\"#000004\",\"#000005\",\"#000006\",\"#000007\",\"#000008\",\"#000009\",\"#000010\"]}},\"xaxis\":{\"anchor\":\"y\",\"domain\":[0.0,1.0]},\"yaxis\":{\"anchor\":\"x\",\"domain\":[0.0,1.0],\"title\":{\"text\":\"Age\"}},\"legend\":{\"tracegroupgap\":0},\"title\":{\"text\":\"Box Plot for Age\"},\"boxmode\":\"group\"}}",
+            "outlier_plot": "{\"data\":[{\"boxpoints\":\"all\",\"name\":\"Outliers\",\"y\":[28,34,26,29,40,31,38,27,33,29],\"type\":\"box\"}],\"layout\":{\"template\":{\"data\":{\"candlestick\":[{\"decreasing\":{\"line\":{\"color\":\"#000033\"}},\"increasing\":{\"line\":{\"color\":\"#000032\"}},\"type\":\"candlestick\"}],\"contourcarpet\":[{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"type\":\"contourcarpet\"}],\"contour\":[{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"type\":\"contour\"}],\"heatmap\":[{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"type\":\"heatmap\"}],\"histogram2d\":[{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"type\":\"histogram2d\"}],\"icicle\":[{\"textfont\":{\"color\":\"white\"},\"type\":\"icicle\"}],\"sankey\":[{\"textfont\":{\"color\":\"#000036\"},\"type\":\"sankey\"}],\"scatter\":[{\"marker\":{\"line\":{\"width\":0}},\"type\":\"scatter\"}],\"table\":[{\"cells\":{\"fill\":{\"color\":\"#000038\"},\"font\":{\"color\":\"#000037\"},\"line\":{\"color\":\"#000039\"}},\"header\":{\"fill\":{\"color\":\"#000040\"},\"font\":{\"color\":\"#000036\"},\"line\":{\"color\":\"#000039\"}},\"type\":\"table\"}],\"waterfall\":[{\"connector\":{\"line\":{\"color\":\"#000036\",\"width\":2}},\"decreasing\":{\"marker\":{\"color\":\"#000033\"}},\"increasing\":{\"marker\":{\"color\":\"#000032\"}},\"totals\":{\"marker\":{\"color\":\"#000034\"}},\"type\":\"waterfall\"}]},\"layout\":{\"coloraxis\":{\"colorscale\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]]},\"colorscale\":{\"diverging\":[[0.0,\"#000021\"],[0.1,\"#000022\"],[0.2,\"#000023\"],[0.3,\"#000024\"],[0.4,\"#000025\"],[0.5,\"#000026\"],[0.6,\"#000027\"],[0.7,\"#000028\"],[0.8,\"#000029\"],[0.9,\"#000030\"],[1.0,\"#000031\"]],\"sequential\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]],\"sequentialminus\":[[0.0,\"#000011\"],[0.1111111111111111,\"#000012\"],[0.2222222222222222,\"#000013\"],[0.3333333333333333,\"#000014\"],[0.4444444444444444,\"#000015\"],[0.5555555555555556,\"#000016\"],[0.6666666666666666,\"#000017\"],[0.7777777777777778,\"#000018\"],[0.8888888888888888,\"#000019\"],[1.0,\"#000020\"]]},\"colorway\":[\"#000001\",\"#000002\",\"#000003\",\"#000004\",\"#000005\",\"#000006\",\"#000007\",\"#000008\",\"#000009\",\"#000010\"]}},\"title\":{\"text\":\"Outlier Detection for Age\"}}}"
+          },
+          "insight": "The 'Age' column contains numerical data, as evidenced by the provided statistical summaries such as the mean, standard deviation, and quartile ranges. This conclusion is also supported by the 'NaN' values in the 'unique', 'top', and 'freq' fields which typically apply to categorical data.\n\nKey takeaways from the provided summary include:\n\n1. The 'Age' variable has a total of 10 observations.\n2. The mean (or average) age is 31.5 years, which gives a general idea about the central tendency of the data.\n3. The standard deviation is around 4.7, implying that the ages typically vary within a range of +/- 4.7 years around the mean.\n4. The minimum and maximum age observed are 26 and 40 years, respectively.\n5. The median age (50% percentile or the second quartile) is 30 years, meaning half of the people are below 30 years and half above.\n6. The first quartile (25%) is 28.25 years, which means 25% of people are below this age.\n7. The third quartile (75%) is 33.75 years, suggesting 75% of people are below this age.\n\nFrom this data, we can infer that our data distribution is most likely positively skewed since the mean (31.5) is greater than the median (30.0). However, for a definitive conclusion, more extensive analysis or visualizations might be necessary as skewness is not provided. Also, the data appears to be relatively close together as indicated by a small standard deviation which shows small variability in the age of individuals."
         }
       }
     }
-  },
-  "synthetic_data_from_metadata": [
-    {
-      "employee_id": "EMP001",
-      "name": "Alice Johnson",
-      "role": "Manager",
-      "designation": "Senior Manager",
-      "salary": 75000,
-      "date_of_joining": "2018-06-12",
-      "department": "Marketing"
-    },
-    {
-      "employee_id": "EMP002",
-      "name": "John Smith",
-      "role": "Developer",
-      "designation": "Software Engineer",
-      "salary": 60000,
-      "date_of_joining": "2019-02-28",
-      "department": "Engineering"
-    }
-  ]
+  }
 }

@@ -2,7 +2,7 @@ import * as React from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
-import StructuredData from "../structureddata/StructuredData";
+import StructuredSyntheticDataGenerator from "../structureddata/StructuredSyntheticDataGenerator";
 import PromptSyntheticDataGenerator from "../PromptSyntheticDataGenerator/PromptSyntheticDataGenerator";
 
 function TabPanel(props) {
@@ -65,10 +65,8 @@ export default function VerticalTabs() {
         <Tab label="Generate Data" {...a11yProps(1)} />
       </Tabs>
       <TabPanel value={value} index={0}>
-        <StructuredData />
+        <StructuredSyntheticDataGenerator />
       </TabPanel>
-      {/* <TabPanel value={value} index={1}>
-      </TabPanel> */}
       <TabPanel value={value} index={1}>
         <PromptSyntheticDataGenerator />
       </TabPanel>
