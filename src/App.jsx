@@ -1,13 +1,9 @@
 import { useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   useEffect(() => {
-    fetch("http://localhost:5000/users")
+    fetch("http://localhost:5000/response_get_structured_data_insights")
       .then(response => response.json())
       .then(data => console.log(data));
   }, []);
