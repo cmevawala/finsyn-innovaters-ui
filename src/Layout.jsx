@@ -1,0 +1,21 @@
+import React from "react";
+import { AppBar, Toolbar, Typography, CssBaseline, Container, Box } from "@mui/material";
+import PromptSyntheticDataGenerator from "./PromptSyntheticDataGenerator";
+
+export default function Layout() {
+    return (
+        <Box>
+            <CssBaseline />
+
+            {/* App Bar */}
+            <AppBar position="static">
+                <Toolbar>
+                    <Typography variant="h6">My MUI Page</Typography>
+                </Toolbar>
+            </AppBar>
+
+            {/* Main Content */}
+            <PromptSyntheticDataGenerator />
+        </Box>
+    );
+}
