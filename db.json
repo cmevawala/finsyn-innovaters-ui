@@ -1,200 +1,219 @@
 {
-    "response_get_schema_from_users_prompt": {
-      "employeeName": {
-        "type": "string",
-        "description": "The name of the employee",
-        "format": null,
-        "required": true
-      },
-      "assetId": {
-        "type": "string",
-        "description": "The unique identifier of the asset",
-        "format": null,
-        "required": true
-      },
-      "assetName": {
-        "type": "string",
-        "description": "The name of the asset",
-        "format": null,
-        "required": true
-      },
-      "dateAllocated": {
-        "type": "string",
-        "description": "The date when the asset was allocated",
-        "format": "date-time",
-        "required": true
-      },
-      "assetValue": {
-        "type": "number",
-        "description": "The value of the asset",
-        "format": null,
-        "required": true
-      },
-      "assetCondition": {
-        "type": "string",
-        "description": "The condition of the asset",
-        "format": null,
-        "required": true
-      }
+  "response_get_schema_from_users_prompt": {
+    "employeeName": {
+      "type": "string",
+      "description": "The name of the employee",
+      "format": null,
+      "required": true
     },
-    "response_get_structured_data_insights": {
-      "structured_data_insights": {
-        "summary_statistics": {
-          "count": {
-            "ID": 2,
-            "Name": 2,
-            "Age": 2,
-            "Department": 2,
-            "Salary": 2,
-            "Date_of_Joining": 2,
-            "Band Level": 2,
-            "Years of Experience": 2,
-            "Last Performance Rating": 2,
-            "Laptop Assigned": 2,
-            "Number of tickets raised in a month": 2
-          },
-          "unique": {
-            "ID": 2,
-            "Name": 2,
-            "Age": null,
-            "Department": 2,
-            "Salary": null,
-            "Date_of_Joining": 2,
-            "Band Level": null,
-            "Years of Experience": null,
-            "Last Performance Rating": null,
-            "Laptop Assigned": 1,
-            "Number of tickets raised in a month": null
-          },
-          "top": {
-            "ID": "EMP01",
-            "Name": "John Doe",
-            "Age": null,
-            "Department": "Engineering",
-            "Salary": null,
-            "Date_of_Joining": "2019-04-23",
-            "Band Level": null,
-            "Years of Experience": null,
-            "Last Performance Rating": null,
-            "Laptop Assigned": "Lenevo",
-            "Number of tickets raised in a month": null
-          },
-          "freq": {
-            "ID": 1,
-            "Name": 1,
-            "Age": null,
-            "Department": 1,
-            "Salary": null,
-            "Date_of_Joining": 1,
-            "Band Level": null,
-            "Years of Experience": null,
-            "Last Performance Rating": null,
-            "Laptop Assigned": 2,
-            "Number of tickets raised in a month": null
-          },
-          "mean": {
-            "ID": null,
-            "Name": null,
-            "Age": 31,
-            "Department": null,
-            "Salary": 67500,
-            "Date_of_Joining": null,
-            "Band Level": 44,
-            "Years of Experience": 4.5,
-            "Last Performance Rating": 2,
-            "Laptop Assigned": null,
-            "Number of tickets raised in a month": 3
-          },
-          "std": {
-            "ID": null,
-            "Name": null,
-            "Age": 4.242640687119285,
-            "Department": null,
-            "Salary": 3535.5339059327375,
-            "Date_of_Joining": null,
-            "Band Level": 22.627416997969522,
-            "Years of Experience": 0.7071067811865476,
-            "Last Performance Rating": 0,
-            "Laptop Assigned": null,
-            "Number of tickets raised in a month": 1.4142135623730951
-          },
-          "min": {
-            "ID": null,
-            "Name": null,
-            "Age": 28,
-            "Department": null,
-            "Salary": 65000,
-            "Date_of_Joining": null,
-            "Band Level": 28,
-            "Years of Experience": 4,
-            "Last Performance Rating": 2,
-            "Laptop Assigned": null,
-            "Number of tickets raised in a month": 2
-          },
-          "25%": {
-            "ID": null,
-            "Name": null,
-            "Age": 29.5,
-            "Department": null,
-            "Salary": 66250,
-            "Date_of_Joining": null,
-            "Band Level": 36,
-            "Years of Experience": 4.25,
-            "Last Performance Rating": 2,
-            "Laptop Assigned": null,
-            "Number of tickets raised in a month": 2.5
-          },
-          "50%": {
-            "ID": null,
-            "Name": null,
-            "Age": 31,
-            "Department": null,
-            "Salary": 67500,
-            "Date_of_Joining": null,
-            "Band Level": 44,
-            "Years of Experience": 4.5,
-            "Last Performance Rating": 2,
-            "Laptop Assigned": null,
-            "Number of tickets raised in a month": 3
-          },
-          "75%": {
-            "ID": null,
-            "Name": null,
-            "Age": 32.5,
-            "Department": null,
-            "Salary": 68750,
-            "Date_of_Joining": null,
-            "Band Level": 52,
-            "Years of Experience": 4.75,
-            "Last Performance Rating": 2,
-            "Laptop Assigned": null,
-            "Number of tickets raised in a month": 3.5
-          },
-          "max": {
-            "ID": null,
-            "Name": null,
-            "Age": 34,
-            "Department": null,
-            "Salary": 70000,
-            "Date_of_Joining": null,
-            "Band Level": 60,
-            "Years of Experience": 5,
-            "Last Performance Rating": 2,
-            "Laptop Assigned": null,
-            "Number of tickets raised in a month": 4
-          }
+    "assetId": {
+      "type": "string",
+      "description": "The unique identifier of the asset",
+      "format": null,
+      "required": true
+    },
+    "assetName": {
+      "type": "string",
+      "description": "The name of the asset",
+      "format": null,
+      "required": true
+    },
+    "dateAllocated": {
+      "type": "string",
+      "description": "The date when the asset was allocated",
+      "format": "date-time",
+      "required": true
+    },
+    "assetValue": {
+      "type": "number",
+      "description": "The value of the asset",
+      "format": null,
+      "required": true
+    },
+    "assetCondition": {
+      "type": "string",
+      "description": "The condition of the asset",
+      "format": null,
+      "required": true
+    }
+  },
+  "response_get_structured_data_insights": {
+    "structured_data_insights": {
+      "summary_statistics": {
+        "count": {
+          "ID": 2,
+          "Name": 2,
+          "Age": 2,
+          "Department": 2,
+          "Salary": 2,
+          "Date_of_Joining": 2,
+          "Band Level": 2,
+          "Years of Experience": 2,
+          "Last Performance Rating": 2,
+          "Laptop Assigned": 2,
+          "Number of tickets raised in a month": 2
         },
-        "columns": {
-          "ID": {
-            "plots": "No plots available (non-numeric data).",
-            "insight": "The provided statistical metrics is pertaining to the 'ID' column:\n\n1. 'Count' is 2, which means there are only two observations or entries in this column.\n\n2. 'Unique' is also 2, suggesting that both the entries in the 'ID' column are distinct without any repetition.\n\n3. 'Top' refers to the most common value in the column, which is 'EMP01'. However, as 'Freq' is 1, it indicates that 'EMP01' appears only once and there's another unique entry.\n\n4. The 'NaN' values for mean, std, min, 25%, 50%, 75%, and max indicate that these statistical measures were not calculated. This is probably because the 'ID' column contains categorical data (likely strings), for which these statistical operations don't make sense or are not applicable.\n\nIn brief, this summary is about a column of unique identifiers ('ID') with only two different records present - each one appearing only once. Therefore, no meaningful statistical analysis on central tendency or dispersion can be conducted on this column."
-          },
-          "Name": {
-            "plots": "No plots available (non-numeric data).",
-            "insight": "From the provided statistical summary for the column 'Name', we can deduce the following:\n\n1. There are two entries in the column.\n2. Both entries are unique as indicated by 'unique = 2'.\n3. The most frequent name is 'John Doe', but since 'freq =1', it essentially means each name appears once.\n4. Since 'Name' is a qualitative variable (normally column meant to store numerical records) all the following statistical metrics (`mean`, `std`, `min`, `25%`, `50%`, `75%`, `max`) do not apply, hence showing `NaN`, not a number.\n \nKey Insights:\n- The 'name' column only consists of two different names.\n- Each name only appears once.\n- Receiving numerical metrics for this type of column might indicate a possible data import or structuring error since ordinarily such measures are applicable to quantitative data."
-          }
+        "unique": {
+          "ID": 2,
+          "Name": 2,
+          "Age": null,
+          "Department": 2,
+          "Salary": null,
+          "Date_of_Joining": 2,
+          "Band Level": null,
+          "Years of Experience": null,
+          "Last Performance Rating": null,
+          "Laptop Assigned": 1,
+          "Number of tickets raised in a month": null
+        },
+        "top": {
+          "ID": "EMP01",
+          "Name": "John Doe",
+          "Age": null,
+          "Department": "Engineering",
+          "Salary": null,
+          "Date_of_Joining": "2019-04-23",
+          "Band Level": null,
+          "Years of Experience": null,
+          "Last Performance Rating": null,
+          "Laptop Assigned": "Lenevo",
+          "Number of tickets raised in a month": null
+        },
+        "freq": {
+          "ID": 1,
+          "Name": 1,
+          "Age": null,
+          "Department": 1,
+          "Salary": null,
+          "Date_of_Joining": 1,
+          "Band Level": null,
+          "Years of Experience": null,
+          "Last Performance Rating": null,
+          "Laptop Assigned": 2,
+          "Number of tickets raised in a month": null
+        },
+        "mean": {
+          "ID": null,
+          "Name": null,
+          "Age": 31,
+          "Department": null,
+          "Salary": 67500,
+          "Date_of_Joining": null,
+          "Band Level": 44,
+          "Years of Experience": 4.5,
+          "Last Performance Rating": 2,
+          "Laptop Assigned": null,
+          "Number of tickets raised in a month": 3
+        },
+        "std": {
+          "ID": null,
+          "Name": null,
+          "Age": 4.242640687119285,
+          "Department": null,
+          "Salary": 3535.5339059327375,
+          "Date_of_Joining": null,
+          "Band Level": 22.627416997969522,
+          "Years of Experience": 0.7071067811865476,
+          "Last Performance Rating": 0,
+          "Laptop Assigned": null,
+          "Number of tickets raised in a month": 1.4142135623730951
+        },
+        "min": {
+          "ID": null,
+          "Name": null,
+          "Age": 28,
+          "Department": null,
+          "Salary": 65000,
+          "Date_of_Joining": null,
+          "Band Level": 28,
+          "Years of Experience": 4,
+          "Last Performance Rating": 2,
+          "Laptop Assigned": null,
+          "Number of tickets raised in a month": 2
+        },
+        "25%": {
+          "ID": null,
+          "Name": null,
+          "Age": 29.5,
+          "Department": null,
+          "Salary": 66250,
+          "Date_of_Joining": null,
+          "Band Level": 36,
+          "Years of Experience": 4.25,
+          "Last Performance Rating": 2,
+          "Laptop Assigned": null,
+          "Number of tickets raised in a month": 2.5
+        },
+        "50%": {
+          "ID": null,
+          "Name": null,
+          "Age": 31,
+          "Department": null,
+          "Salary": 67500,
+          "Date_of_Joining": null,
+          "Band Level": 44,
+          "Years of Experience": 4.5,
+          "Last Performance Rating": 2,
+          "Laptop Assigned": null,
+          "Number of tickets raised in a month": 3
+        },
+        "75%": {
+          "ID": null,
+          "Name": null,
+          "Age": 32.5,
+          "Department": null,
+          "Salary": 68750,
+          "Date_of_Joining": null,
+          "Band Level": 52,
+          "Years of Experience": 4.75,
+          "Last Performance Rating": 2,
+          "Laptop Assigned": null,
+          "Number of tickets raised in a month": 3.5
+        },
+        "max": {
+          "ID": null,
+          "Name": null,
+          "Age": 34,
+          "Department": null,
+          "Salary": 70000,
+          "Date_of_Joining": null,
+          "Band Level": 60,
+          "Years of Experience": 5,
+          "Last Performance Rating": 2,
+          "Laptop Assigned": null,
+          "Number of tickets raised in a month": 4
+        }
+      },
+      "columns": {
+        "ID": {
+          "plots": "No plots available (non-numeric data).",
+          "insight": "The provided statistical metrics is pertaining to the 'ID' column:\n\n1. 'Count' is 2, which means there are only two observations or entries in this column.\n\n2. 'Unique' is also 2, suggesting that both the entries in the 'ID' column are distinct without any repetition.\n\n3. 'Top' refers to the most common value in the column, which is 'EMP01'. However, as 'Freq' is 1, it indicates that 'EMP01' appears only once and there's another unique entry.\n\n4. The 'NaN' values for mean, std, min, 25%, 50%, 75%, and max indicate that these statistical measures were not calculated. This is probably because the 'ID' column contains categorical data (likely strings), for which these statistical operations don't make sense or are not applicable.\n\nIn brief, this summary is about a column of unique identifiers ('ID') with only two different records present - each one appearing only once. Therefore, no meaningful statistical analysis on central tendency or dispersion can be conducted on this column."
+        },
+        "Name": {
+          "plots": "No plots available (non-numeric data).",
+          "insight": "From the provided statistical summary for the column 'Name', we can deduce the following:\n\n1. There are two entries in the column.\n2. Both entries are unique as indicated by 'unique = 2'.\n3. The most frequent name is 'John Doe', but since 'freq =1', it essentially means each name appears once.\n4. Since 'Name' is a qualitative variable (normally column meant to store numerical records) all the following statistical metrics (`mean`, `std`, `min`, `25%`, `50%`, `75%`, `max`) do not apply, hence showing `NaN`, not a number.\n \nKey Insights:\n- The 'name' column only consists of two different names.\n- Each name only appears once.\n- Receiving numerical metrics for this type of column might indicate a possible data import or structuring error since ordinarily such measures are applicable to quantitative data."
         }
       }
     }
-  }
-  
+  },
+  "synthetic_data_from_metadata": [
+    {
+      "employee_id": "EMP001",
+      "name": "Alice Johnson",
+      "role": "Manager",
+      "designation": "Senior Manager",
+      "salary": 75000,
+      "date_of_joining": "2018-06-12",
+      "department": "Marketing"
+    },
+    {
+      "employee_id": "EMP002",
+      "name": "John Smith",
+      "role": "Developer",
+      "designation": "Software Engineer",
+      "salary": 60000,
+      "date_of_joining": "2019-02-28",
+      "department": "Engineering"
+    }
+  ]
+}
