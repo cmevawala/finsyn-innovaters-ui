@@ -31,12 +31,13 @@ const PromptSyntheticDataReport = () => {
     if (!showReport) return null;
 
     return (
-        <Container sx={{ height: 400, width: "100%", mt: 2, mb: 2, height: "100%" }}>
+        <Container sx={{ height: "100%", width: "100%", mt: 2, mb: 2 }}>
             <Typography variant="h5" gutterBottom sx={{ mb: 2 }}>
                 Synthetic Data Report
             </Typography>
-            <DataGrid rows={rows} columns={columns} pageSize={5} checkboxSelection
-                sx={{ mb: 2 }} />
+            <DataGrid rows={rows} columns={columns} pageSize={5}
+                sx={{ mb: 2 }} rowsPerPageOptions={[5, 10, 20]} 
+                checkboxSelection />
 
             <Button
                 variant="contained"
