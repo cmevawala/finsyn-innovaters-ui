@@ -5,6 +5,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import StructuredData from "../structureddata/StructuredData";
 import GenerateData from "../generatedata/GenerateData";
+import PromptSyntheticDataGenerator from "../PromptSyntheticDataGenerator/PromptSyntheticDataGenerator";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -68,6 +69,9 @@ export default function VerticalTabs() {
       </TabPanel>
       <TabPanel value={value} index={1}>
         <GenerateData />
+      </TabPanel>
+      <TabPanel value={value} index={1}>
+        <PromptSyntheticDataGenerator />
       </TabPanel>
     </Box>
   );
