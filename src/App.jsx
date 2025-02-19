@@ -1,17 +1,21 @@
 import { useState, useEffect } from 'react'
+import VerticalTabs from './components/verticaltabs/VerticalTabs'
+import { Container } from '@mui/material'
 import './App.css'
 
 function App() {
-  useEffect(() => {
-    fetch("http://localhost:5000/response_get_structured_data_insights")
-      .then(response => response.json())
-      .then(data => console.log(data));
-  }, []);
-  
+  const [count, setCount] = useState(0)
+
+  // useEffect(() => {
+  //   fetch("http://localhost:5000/users")
+  //     .then(response => response.json())
+  //     .then(data => console.log(data));
+  // }, []);
+
   return (
-    <>
-     <h1>Hello World</h1>
-    </>
+    <Container maxWidth="lg">
+      <VerticalTabs />
+    </Container>
   )
 }
 
