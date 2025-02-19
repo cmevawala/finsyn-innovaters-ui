@@ -1,5 +1,5 @@
 import React from "react";
-import { AppBar, Toolbar, Typography, CssBaseline, Container, Box } from "@mui/material";
+import { AppBar, Toolbar, Typography, CssBaseline, Box } from "@mui/material";
 import PromptSyntheticDataGenerator from "./components/PromptSyntheticDataGenerator/PromptSyntheticDataGenerator";
 
 export default function Layout() {
